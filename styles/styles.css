@@ -1,0 +1,29 @@
+body {
+    text-align: center;
+  }
+ img.logo {
+    padding: 10px ;
+    width: 70px;
+  }
+  nav{
+    background-color:slateblue ;
+    padding: 10px;
+  }
+  a{
+    color: white;
+    margin: 40px;
+  }
+  h1{
+    color: steelblue;
+  }
+  img{
+    width: 800px ;
+    border: 4px solid steelblue;
+  }
+  p{
+    padding: 10px ;
+  }
+  footer {
+    background-color: steelblue;
+    color: white;
+  }
