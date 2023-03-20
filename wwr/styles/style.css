@@ -9,9 +9,17 @@ body{
 #content { 
     max-width: 1600px; }
 header{
+    display: grid;
+    grid-template-columns: 150px auto;
     background-color: #fce172;
+   
+}
+nav{
+    display: flex;
+    justify-content: space-around;
 }
 nav a {
+    
     text-align: center;
     color: #ffffff;
     text-decoration: none;
@@ -32,6 +40,7 @@ main section {
     background-color: #ffffff;
 }
 nav a:hover{
+   
     background-color: #134d66;
 }
 .book, .join{
@@ -100,7 +109,10 @@ h2{
     margin: 0;
 }
 #logo_link{
+
    padding-top: 5px; 
+   justify-self: center;
+   align-items: center;
 }
 footer .social img  {
     padding-top: 15px;
@@ -114,3 +126,9 @@ footer .social img  {
 main section img {
     box-sizing: border-box;
 } 
+#hero-box {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-column: 1/4;
+    grid-row: 1/3;
+}
