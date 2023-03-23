@@ -34,8 +34,8 @@ header img{
     width: 70px;
     
 }
-img.logo{
-  width: 70px; 
+.logo{
+  width: 180px; 
   padding: 10px; 
 }
 img{
@@ -50,4 +50,7 @@ footer{
 }
 footer p{
     margin: 25px;
+}
+.social{
+    width: 40px;
 }
